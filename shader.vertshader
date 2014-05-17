@@ -1,0 +1,9 @@
+#version 140
+
+attribute vec3 vertexPosition_modelspace;
+
+void main(void){
+
+	gl_Position = vec4(vertexPosition_modelspace, 1.0);
+
+}
